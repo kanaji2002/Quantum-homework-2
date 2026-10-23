@@ -247,7 +247,21 @@ def fig_comparison(path, panels):
                 axes[1, i].imshow(err, cmap="magma", vmin=0, vmax=0.5, interpolation="nearest")
                 axes[1, i].set_title("|error|", fontsize=10)
     fig.tight_layout()
-    fig.savefig(path, dpi=150)
+    fig.savefig(path, dpi=150, bbox_inches="tight", pad_inches=0.08)
+    plt.close(fig)
+
+
+def fig_grid(path, panels, ncols=3):
+    """誤差マップなしの画像を ncols 列に並べる (段組の 1 カラム用)。"""
+    nrows = -(-len(panels) // ncols)
+    fig, axes = plt.subplots(nrows, ncols, figsize=(2.3 * ncols, 2.45 * nrows), squeeze=False)
+    for ax in axes.ravel():
+        ax.axis("off")
+    for ax, (img, title, _) in zip(axes.ravel(), panels):
+        ax.imshow(img, interpolation="nearest")
+        ax.set_title(title, fontsize=12)
+    fig.tight_layout()
+    fig.savefig(path, dpi=150, bbox_inches="tight", pad_inches=0.08)
     plt.close(fig)
 
 
@@ -373,7 +387,7 @@ def main():
         # 信頼度マップ
         fig, ax = plt.subplots(1, 3, figsize=(9, 3.4))
         for a, img, title in [(ax[0], q_gray, f"QSS result (t={t})"),
-                              (ax[1], conf, "confidence c(y)"),
+                              (ax[1], conf, "confidence"),
                               (ax[2], (np.abs(q_gray - ideal_gray) < 1e-9).astype(float),
                                "actually correct (white)")]:
             a.imshow(img, cmap="gray", vmin=0, vmax=1, interpolation="nearest")
@@ -407,7 +421,7 @@ def main():
         rgb_panels += [(np.asarray(Image.open(res_dir / f"qss_rgb_t{t}.png")) / 255, f"QSS, t={t}", None),
                        (np.asarray(Image.open(res_dir / f"mc_rgb_n{2 ** t - 1}.png")) / 255,
                         f"Monte Carlo, n={2 ** t - 1}", None)]
-    fig_comparison(fig_dir / "comparison_rgb.png", rgb_panels)
+    fig_grid(fig_dir / "comparison_rgb.png", rgb_panels)
     fig_lut(fig_dir / "lookup_tables.png", luts)
 
     # 代表タイル (顔付近で k が中間のもの) の位相エンコードと回路図

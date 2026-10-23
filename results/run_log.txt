@@ -1,5 +1,5 @@
-t=4: done in 11.8s
-t=6: done in 62.8s
+t=4: done in 11.9s
+t=6: done in 63.4s
 {
   "image": "data/mona_512.npz (512x512, Bayer 1bit)",
   "tiles": [
@@ -71,7 +71,7 @@ t=6: done in 62.8s
         }
       },
       "corr_confidence_vs_correct": 0.4703189244763536,
-      "seconds": 11.774324500001967
+      "seconds": 11.889126125024632
     },
     "t=6": {
       "qubits_per_tile_circuit": 10,
@@ -143,7 +143,7 @@ t=6: done in 62.8s
         }
       },
       "corr_confidence_vs_correct": 0.3739626662801493,
-      "seconds": 62.79192116705235
+      "seconds": 63.41076920897467
     }
   },
   "example_tile": {
@@ -177,5 +177,5 @@ t=6: done in 62.8s
     ],
     "k": 8
   },
-  "total_seconds": 75.64504037500592
+  "total_seconds": 76.42354820901528
 }

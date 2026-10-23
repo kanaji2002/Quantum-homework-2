@@ -74,47 +74,35 @@ ty
 (/usr/local/texlive/2026basic/texmf-dist/tex/latex/amsfonts/umsa.fd)
 (/usr/local/texlive/2026basic/texmf-dist/tex/latex/amsfonts/umsb.fd)
 (/usr/local/texlive/2026basic/texmf-dist/tex/latex/lm/ts1lmr.fd)
-(/usr/local/texlive/2026basic/texmf-dist/tex/latex/lm/t1lmtt.fd) [1{/usr/local/
-texlive/2026basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texl
-ive/2026basic/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2026b
-asic/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2026basic/tex
-mf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2026basic/texmf-dist/f
-onts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2026basic/texmf-dist/fonts/
-enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2026basic/texmf-dist/fonts/enc/d
-vips/lm/lm-mathex.enc}] [2 <../figures/step1_overview.png (PNG copy)> <../figur
-es/circle_notation_tile.png>]
-Underfull \hbox (badness 1102) in paragraph at lines 235--240
-\T1/lmr/m/n/10 Figure []3[] shows the ta-bles. With $\OML/lmm/m/it/10 t \OT1/lm
-r/m/n/10 = 4$\T1/lmr/m/n/10 , con-
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/lm/t1lmtt.fd)
+Underfull \hbox (badness 7468) in paragraph at lines 128--133
+ []\T1/lmr/bx/n/10 Tools.[] \T1/lmr/m/n/10 Cir-cuits are built and sim-u-lated 
+with
+[1{/usr/local/texlive/2026basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/
+usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local
+/texlive/2026basic/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive
+/2026basic/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2026basi
+c/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2026basic/tex
+mf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]
+Underfull \hbox (badness 2913) in paragraph at lines 275--275
+[]\T1/lmr/bx/n/9 Figure 6: |\T1/lmr/m/n/9 Four-qubit in-verse QFT: SWAP gates,
+[2{/usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
+[3 <../figures/step1_overview.png (PNG copy)> <../figures/circle_notation_qceng
+ine.jpg> <../figures/circuit_qss_overview_t4.png>] [4 <../figures/lookup_tables
+.png> <../figures/circuit_grover_step_controlled.png> <../figures/circuit_inver
+se_qft_t4.png>]
+Underfull \hbox (badness 4391) in paragraph at lines 445--449
+\T1/lmr/m/n/10 The code and re-sults are avail-able at []$\T1/lmtt/m/n/10 https
+ :
 
-Underfull \hbox (badness 3229) in paragraph at lines 235--240
-\T1/lmr/m/n/10 se-quence (iii) leaves only nine de-cod-able lev-els,
+Underfull \hbox (badness 10000) in paragraph at lines 445--449
+\T1/lmtt/m/n/10 / / github . com / kanaji2002 / Quantum-[]homework-[]2$[]\T1/lm
+r/m/n/10 .
 
-Underfull \hbox (badness 1360) in paragraph at lines 235--240
-[] \OMS/lmsy/m/n/10 2 f\OT1/lmr/m/n/10 0\OML/lmm/m/it/10 ; \OT1/lmr/m/n/10 1\OM
-L/lmm/m/it/10 ; \OT1/lmr/m/n/10 2\OML/lmm/m/it/10 ; \OT1/lmr/m/n/10 5\OML/lmm/m
-/it/10 ; \OT1/lmr/m/n/10 8\OML/lmm/m/it/10 ; \OT1/lmr/m/n/10 11\OML/lmm/m/it/10
- ; \OT1/lmr/m/n/10 14\OML/lmm/m/it/10 ; \OT1/lmr/m/n/10 15\OML/lmm/m/it/10 ; \O
-T1/lmr/m/n/10 16\OMS/lmsy/m/n/10 g$\T1/lmr/m/n/10 . Tiles with $\OML/lmm/m/it/1
-0 k \OMS/lmsy/m/n/10 2
-
-Underfull \hbox (badness 1168) in paragraph at lines 277--277
-[]\T1/lmr/bx/n/9 Figure 5: |\T1/lmr/m/n/9 Four-qubit in-verse QFT on the counte
-r:
-
-Underfull \hbox (badness 1975) in paragraph at lines 339--347
-\T1/lmr/m/n/10 place-ment). The num-ber of white hits $\OML/lmm/m/it/10 H$ \T1/
-lmr/m/n/10 fol-
-[3]
-Underfull \vbox (badness 4467) has occurred while \output is active [4 <../figu
-res/lookup_tables.png> <../figures/circuit_qss_overview_t4.png> <../figures/cir
-cuit_inverse_qft_t4.png>]
-Underfull \hbox (badness 1622) in paragraph at lines 478--484
- []\T1/lmr/bx/n/10 Cost of a pho-to-graphic shader.[] \T1/lmr/m/n/10 The book's
-
-[5 <../figures/circuit_grover_step_controlled.png> <../figures/comparison_gray.
-png>] [6 <../figures/confidence_t4.png> <../figures/comparison_rgb.png>]
-(./report.aux) )
+Underfull \hbox (badness 3954) in paragraph at lines 445--449
+\T1/lmtt/m/n/10 src/prepare_image.py \T1/lmr/m/n/10 pre-pares the im-age, and
+[5 <../figures/comparison_gray.png> <../figures/confidence_t4.png> <../figures/
+comparison_rgb.png>] (./report.aux) )
 (see the transcript file for additional information)</usr/local/texlive/2026bas
 ic/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2026basic/te
 xmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2026basic/texmf-d
@@ -135,10 +123,8 @@ ts/type1/public/lm/lmri10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/ty
 pe1/public/lm/lmri8.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/pu
 blic/lm/lmri9.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/l
 m/lmsy10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lms
-y6.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmsy7.pfb
-></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmsy9.pfb></usr
-/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/loca
-l/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmtt9.pfb></usr/local/texl
-ive/2026basic/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on report.pdf (6 pages, 1763866 bytes).
+y7.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmsy9.pfb
+></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></us
+r/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmtt9.pfb>
+Output written on report.pdf (5 pages, 1701475 bytes).
 Transcript written on report.log.

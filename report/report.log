@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.9.1)  23 OCT 2026 22:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.9.1)  23 OCT 2026 23:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -351,7 +351,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip54
 )
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 26
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 29
 .
  (/usr/local/texlive/2026basic/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -363,24 +363,24 @@ File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 ) (./report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -443,197 +443,184 @@ e
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 26.
+Package hyperref Info: Link coloring OFF on input line 29.
  (./report.out) (./report.out)
 \@outlinefile=\write3
 \openout3 = `report.out'.
 
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-8.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3
+1.
 
 (/usr/local/texlive/2026basic/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-8.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3
+1.
 
 (/usr/local/texlive/2026basic/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-28.
+31.
 
 (/usr/local/texlive/2026basic/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-28.
+31.
 
 (/usr/local/texlive/2026basic/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 28.
+(Font)              <12> on input line 31.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 28.
+(Font)              <8> on input line 31.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 28.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 28.
+(Font)              <6> on input line 31.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 31.
 
 
 (/usr/local/texlive/2026basic/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 28.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
 
 
 (/usr/local/texlive/2026basic/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
-8.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
+1.
 
 (/usr/local/texlive/2026basic/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 28.
+(Font)              <5> on input line 31.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 32.
+(Font)              <10> on input line 35.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 32.
-<../figures/step1_overview.png, id=59, 1591.9475pt x 425.59pt>
-File: ../figures/step1_overview.png Graphic file (type png)
-<use ../figures/step1_overview.png>
-Package pdftex.def Info: ../figures/step1_overview.png  used on input line 106.
-
-(pdftex.def)             Requested size: 495.07797pt x 132.35364pt.
+(Font)              <7> on input line 35.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 110.
-<../figures/circle_notation_tile.png, id=61, 361.35pt x 390.258pt>
-File: ../figures/circle_notation_tile.png Graphic file (type png)
-<use ../figures/circle_notation_tile.png>
-Package pdftex.def Info: ../figures/circle_notation_tile.png  used on input lin
-e 144.
-(pdftex.def)             Requested size: 147.29875pt x 159.0838pt.
+(Font)              <9> on input line 77.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-55.
+03.
 
 (/usr/local/texlive/2026basic/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [1{/usr/local/texlive/2026basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-{/usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/loc
-al/texlive/2026basic/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}
+)
+Underfull \hbox (badness 7468) in paragraph at lines 128--133
+ []\T1/lmr/bx/n/10 Tools.[] \T1/lmr/m/n/10 Cir-cuits are built and sim-u-lated 
+with
+ []
+
+[1{/usr/local/texlive/2026basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/
+usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local
+/texlive/2026basic/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}
 
 
 {/usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/loc
 al/texlive/2026basic/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/te
-xlive/2026basic/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive
-/2026basic/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}] [2 <../figures/step1_o
-verview.png (PNG copy)> <../figures/circle_notation_tile.png>]
-Underfull \hbox (badness 1102) in paragraph at lines 235--240
-\T1/lmr/m/n/10 Figure []3[] shows the ta-bles. With $\OML/lmm/m/it/10 t \OT1/lm
-r/m/n/10 = 4$\T1/lmr/m/n/10 , con-
- []
+xlive/2026basic/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]
+<../figures/step1_overview.png, id=103, 1533.73pt x 439.6425pt>
+File: ../figures/step1_overview.png Graphic file (type png)
+<use ../figures/step1_overview.png>
+Package pdftex.def Info: ../figures/step1_overview.png  used on input line 152.
 
-
-Underfull \hbox (badness 3229) in paragraph at lines 235--240
-\T1/lmr/m/n/10 se-quence (iii) leaves only nine de-cod-able lev-els,
- []
-
-
-Underfull \hbox (badness 1360) in paragraph at lines 235--240
-[] \OMS/lmsy/m/n/10 2 f\OT1/lmr/m/n/10 0\OML/lmm/m/it/10 ; \OT1/lmr/m/n/10 1\OM
-L/lmm/m/it/10 ; \OT1/lmr/m/n/10 2\OML/lmm/m/it/10 ; \OT1/lmr/m/n/10 5\OML/lmm/m
-/it/10 ; \OT1/lmr/m/n/10 8\OML/lmm/m/it/10 ; \OT1/lmr/m/n/10 11\OML/lmm/m/it/10
- ; \OT1/lmr/m/n/10 14\OML/lmm/m/it/10 ; \OT1/lmr/m/n/10 15\OML/lmm/m/it/10 ; \O
-T1/lmr/m/n/10 16\OMS/lmsy/m/n/10 g$\T1/lmr/m/n/10 . Tiles with $\OML/lmm/m/it/1
-0 k \OMS/lmsy/m/n/10 2
- []
-
-<../figures/lookup_tables.png, id=121, 607.068pt x 274.626pt>
-File: ../figures/lookup_tables.png Graphic file (type png)
-<use ../figures/lookup_tables.png>
-Package pdftex.def Info: ../figures/lookup_tables.png  used on input line 243.
-(pdftex.def)             Requested size: 346.55305pt x 156.7731pt.
-<../figures/circuit_qss_overview_t4.png, id=125, 737.57912pt x 451.47495pt>
+(pdftex.def)             Requested size: 495.07797pt x 141.9094pt.
+<../figures/circle_notation_qcengine.jpg, id=105, 1134.2375pt x 343.2825pt>
+File: ../figures/circle_notation_qcengine.jpg Graphic file (type jpg)
+<use ../figures/circle_notation_qcengine.jpg>
+Package pdftex.def Info: ../figures/circle_notation_qcengine.jpg  used on input
+ line 181.
+(pdftex.def)             Requested size: 237.58052pt x 71.90288pt.
+<../figures/circuit_qss_overview_t4.png, id=109, 737.57912pt x 451.47495pt>
 File: ../figures/circuit_qss_overview_t4.png Graphic file (type png)
 <use ../figures/circuit_qss_overview_t4.png>
 Package pdftex.def Info: ../figures/circuit_qss_overview_t4.png  used on input 
-line 266.
+line 238.
 (pdftex.def)             Requested size: 237.58052pt x 145.4256pt.
-<../figures/circuit_inverse_qft_t4.png, id=126, 581.13582pt x 487.60994pt>
-File: ../figures/circuit_inverse_qft_t4.png Graphic file (type png)
-<use ../figures/circuit_inverse_qft_t4.png>
-Package pdftex.def Info: ../figures/circuit_inverse_qft_t4.png  used on input l
-ine 275.
-(pdftex.def)             Requested size: 201.94489pt x 169.44582pt.
-
-Underfull \hbox (badness 1168) in paragraph at lines 277--277
-[]\T1/lmr/bx/n/9 Figure 5: |\T1/lmr/m/n/9 Four-qubit in-verse QFT on the counte
-r:
- []
-
-<../figures/circuit_grover_step_controlled.png, id=127, 1309.36235pt x 265.6985
+<../figures/lookup_tables.png, id=111, 607.068pt x 274.626pt>
+File: ../figures/lookup_tables.png Graphic file (type png)
+<use ../figures/lookup_tables.png>
+Package pdftex.def Info: ../figures/lookup_tables.png  used on input line 246.
+(pdftex.def)             Requested size: 297.0498pt x 134.37933pt.
+<../figures/circuit_grover_step_controlled.png, id=115, 1309.36235pt x 265.6985
 3pt>
 File: ../figures/circuit_grover_step_controlled.png Graphic file (type png)
 <use ../figures/circuit_grover_step_controlled.png>
 Package pdftex.def Info: ../figures/circuit_grover_step_controlled.png  used on
- input line 283.
+ input line 263.
 (pdftex.def)             Requested size: 495.07797pt x 100.4597pt.
-<../figures/comparison_gray.png, id=132, 758.835pt x 325.215pt>
+<../figures/circuit_inverse_qft_t4.png, id=118, 581.13582pt x 487.60994pt>
+File: ../figures/circuit_inverse_qft_t4.png Graphic file (type png)
+<use ../figures/circuit_inverse_qft_t4.png>
+Package pdftex.def Info: ../figures/circuit_inverse_qft_t4.png  used on input l
+ine 273.
+(pdftex.def)             Requested size: 201.94489pt x 169.44582pt.
+
+Underfull \hbox (badness 2913) in paragraph at lines 275--275
+[]\T1/lmr/bx/n/9 Figure 6: |\T1/lmr/m/n/9 Four-qubit in-verse QFT: SWAP gates,
+ []
+
+<../figures/comparison_gray.png, id=119, 748.7172pt x 319.9152pt>
 File: ../figures/comparison_gray.png Graphic file (type png)
 <use ../figures/comparison_gray.png>
-Package pdftex.def Info: ../figures/comparison_gray.png  used on input line 330
+Package pdftex.def Info: ../figures/comparison_gray.png  used on input line 282
 .
-(pdftex.def)             Requested size: 495.07797pt x 212.18121pt.
-
-Underfull \hbox (badness 1975) in paragraph at lines 339--347
-\T1/lmr/m/n/10 place-ment). The num-ber of white hits $\OML/lmm/m/it/10 H$ \T1/
-lmr/m/n/10 fol-
- []
-
-<../figures/confidence_t4.png, id=141, 650.43pt x 245.718pt>
+(pdftex.def)             Requested size: 435.67102pt x 186.16113pt.
+<../figures/confidence_t4.png, id=120, 650.43pt x 245.718pt>
 File: ../figures/confidence_t4.png Graphic file (type png)
 <use ../figures/confidence_t4.png>
-Package pdftex.def Info: ../figures/confidence_t4.png  used on input line 398.
-(pdftex.def)             Requested size: 371.30847pt x 140.27441pt.
-<../figures/comparison_rgb.png, id=144, 910.602pt x 162.3666pt>
+Package pdftex.def Info: ../figures/confidence_t4.png  used on input line 293.
+(pdftex.def)             Requested size: 277.24245pt x 104.73808pt.
+<../figures/comparison_rgb.png, id=121, 488.5452pt x 347.3778pt>
 File: ../figures/comparison_rgb.png Graphic file (type png)
 <use ../figures/comparison_rgb.png>
-Package pdftex.def Info: ../figures/comparison_rgb.png  used on input line 407.
+Package pdftex.def Info: ../figures/comparison_rgb.png  used on input line 300.
 
-(pdftex.def)             Requested size: 495.07797pt x 88.2762pt.
-[3]
-Underfull \vbox (badness 4467) has occurred while \output is active []
-
- [4 <../figures/lookup_tables.png> <../figures/circuit_qss_overview_t4.png> <..
-/figures/circuit_inverse_qft_t4.png>]
-Underfull \hbox (badness 1622) in paragraph at lines 478--484
- []\T1/lmr/bx/n/10 Cost of a pho-to-graphic shader.[] \T1/lmr/m/n/10 The book's
-
+(pdftex.def)             Requested size: 198.02815pt x 140.80914pt.
+[2{/usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
+[3 <../figures/step1_overview.png (PNG copy)> <../figures/circle_notation_qceng
+ine.jpg> <../figures/circuit_qss_overview_t4.png>] [4 <../figures/lookup_tables
+.png> <../figures/circuit_grover_step_controlled.png> <../figures/circuit_inver
+se_qft_t4.png>]
+Underfull \hbox (badness 4391) in paragraph at lines 445--449
+\T1/lmr/m/n/10 The code and re-sults are avail-able at []$\T1/lmtt/m/n/10 https
+ :
  []
 
-[5 <../figures/circuit_grover_step_controlled.png> <../figures/comparison_gray.
-png>] [6
 
- <../figures/confidence_t4.png> <../figures/comparison_rgb.png>]
-(./report.aux)
+Underfull \hbox (badness 10000) in paragraph at lines 445--449
+\T1/lmtt/m/n/10 / / github . com / kanaji2002 / Quantum-[]homework-[]2$[]\T1/lm
+r/m/n/10 .
+ []
+
+
+Underfull \hbox (badness 3954) in paragraph at lines 445--449
+\T1/lmtt/m/n/10 src/prepare_image.py \T1/lmr/m/n/10 pre-pares the im-age, and
+ []
+
+[5
+
+ <../figures/comparison_gray.png> <../figures/confidence_t4.png> <../figures/co
+mparison_rgb.png>] (./report.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: E31EFD770B0E2F67F2D049B8F8966D91;1813.
+(rerunfilecheck)             Checksum: E28588E329DDC5620714E4D7F4A83B60;1825.
  ) 
 Here is how much of TeX's memory you used:
- 12169 strings out of 469006
- 191793 string characters out of 5454814
- 621450 words of memory out of 5000000
- 40625 multiletter control sequences out of 15000+600000
- 703925 words of font info for 95 fonts, out of 8000000 for 9000
+ 12159 strings out of 469006
+ 191690 string characters out of 5454814
+ 615111 words of memory out of 5000000
+ 40619 multiletter control sequences out of 15000+600000
+ 709898 words of font info for 97 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 75i,19n,79p,490b,487s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,13n,79p,428b,500s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></u
 sr/local/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/lo
 cal/texlive/2026basic/texmf-dist/fonts/type1/public/lm/lmbx9.pfb></usr/local/te
@@ -653,16 +640,14 @@ live/2026basic/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/
 2026basic/texmf-dist/fonts/type1/public/lm/lmri8.pfb></usr/local/texlive/2026ba
 sic/texmf-dist/fonts/type1/public/lm/lmri9.pfb></usr/local/texlive/2026basic/te
 xmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2026basic/texmf-d
-ist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2026basic/texmf-dist/fo
-nts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/ty
-pe1/public/lm/lmsy9.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/pu
-blic/lm/lmtt10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/
-lm/lmtt9.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfon
-ts/symbols/msbm10.pfb>
-Output written on report.pdf (6 pages, 1763866 bytes).
+ist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2026basic/texmf-dist/fo
+nts/type1/public/lm/lmsy9.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/ty
+pe1/public/lm/lmtt10.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/p
+ublic/lm/lmtt9.pfb>
+Output written on report.pdf (5 pages, 1701475 bytes).
 PDF statistics:
- 349 PDF objects out of 1000 (max. 8388607)
- 261 compressed objects within 3 object streams
- 66 named destinations out of 1000 (max. 500000)
- 150 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 326 PDF objects out of 1000 (max. 8388607)
+ 247 compressed objects within 3 object streams
+ 60 named destinations out of 1000 (max. 500000)
+ 158 words of extra memory for PDF output out of 10000 (max. 10000000)
 

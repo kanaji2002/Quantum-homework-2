@@ -69,7 +69,7 @@
         }
       },
       "corr_confidence_vs_correct": 0.4703189244763536,
-      "seconds": 11.774324500001967
+      "seconds": 11.889126125024632
     },
     "t=6": {
       "qubits_per_tile_circuit": 10,
@@ -141,7 +141,7 @@
         }
       },
       "corr_confidence_vs_correct": 0.3739626662801493,
-      "seconds": 62.79192116705235
+      "seconds": 63.41076920897467
     }
   },
   "example_tile": {
@@ -175,5 +175,5 @@
     ],
     "k": 8
   },
-  "total_seconds": 75.64504037500592
+  "total_seconds": 76.42354820901528
 }

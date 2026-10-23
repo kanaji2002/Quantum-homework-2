@@ -18,7 +18,7 @@ k ≈ 16 v となり、「タイル内の白の数 = そのピクセルの明る
 from pathlib import Path
 
 import numpy as np
-from PIL import Image, ImageDraw
+from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parent.parent
 N = 512          # 高解像度画像 (サブピクセル) の一辺
@@ -92,12 +92,10 @@ def main():
 
     # 2) 概要図: 元画像 / 512 / 1bit / タイル分割拡大
     panel = 384
-    fig = Image.new("RGB", (panel * 4 + 50, panel + 40), "white")
-    draw = ImageDraw.Draw(fig)
     items = [
-        (src.resize((round(w * panel / h), panel)), "original 408x530"),
-        (rgb.resize((panel, panel)), "512x512 RGB"),
-        (Image.fromarray(bit * 255).resize((panel, panel), Image.NEAREST), "512x512 1-bit Bayer (white = phase pi)"),
+        (src.resize((round(w * panel / h), panel)), "original (408x530)"),
+        (rgb.resize((panel, panel)), "512x512"),
+        (Image.fromarray(bit * 255).resize((panel, panel), Image.NEAREST), "black & white (Bayer)"),
     ]
     # 顔付近 32x32 サブピクセルを拡大し 4x4 タイル境界を描く
     y0, x0, z = 120, 220, 32
@@ -107,12 +105,17 @@ def main():
     for k in range(0, panel + 1, step):
         zd.line([(k, 0), (k, panel)], fill=(220, 30, 30), width=2)
         zd.line([(0, k), (panel, k)], fill=(220, 30, 30), width=2)
-    items.append((zoom, f"zoom {z}x{z}: 4x4 tiles"))
-    x = 10
+    items.append((zoom, "zoom: 4x4 tiles"))
+    gap, head = 16, 46
+    fig = Image.new("RGB", (sum(im.width for im, _ in items) + gap * (len(items) + 1), panel + head + 8), "white")
+    draw = ImageDraw.Draw(fig)
+    font = ImageFont.load_default(size=28)
+    x = gap
     for im, label in items:
-        fig.paste(im, (x, 30))
-        draw.text((x, 8), label, fill="black")
-        x += panel + 10
+        fig.paste(im, (x, head))
+        tw = draw.textlength(label, font=font)
+        draw.text((x + (im.width - tw) / 2, 6), label, fill="black", font=font)
+        x += im.width + gap
     fig.save(ROOT / "figures" / "step1_overview.png")
 
     n_tiles = (N // TILE) ** 2
