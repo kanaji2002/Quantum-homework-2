@@ -1,0 +1,181 @@
+t=4: done in 11.8s
+t=6: done in 62.8s
+{
+  "image": "data/mona_512.npz (512x512, Bayer 1bit)",
+  "tiles": [
+    128,
+    128
+  ],
+  "tile_size": 4,
+  "seed": 11,
+  "runs": {
+    "t=4": {
+      "qubits_per_tile_circuit": 8,
+      "oracle_calls_per_tile": 15,
+      "gate_count_example_tile": {
+        "p": 1935,
+        "u": 1710,
+        "cx": 1638
+      },
+      "verification": {
+        "grover_operator_max_abs_diff": 4.5527540858986314e-15,
+        "permuted_masks_max_prob_diff": 9.325873406851315e-15,
+        "real_tiles_checked": 40,
+        "real_tiles_max_prob_diff": 1.887379141862766e-14,
+        "closed_form_max_prob_diff": 1.5867307467942737e-12
+      },
+      "expected_gray": {
+        "qss": {
+          "mean_abs_error": 0.05909069822802232,
+          "zero_error_fraction": 0.5047602729299571
+        },
+        "monte_carlo_rounded": {
+          "mean_abs_error": 0.07251549746255194,
+          "zero_error_fraction": 0.2808208467637655
+        },
+        "decodable_levels": [
+          0,
+          1,
+          2,
+          5,
+          8,
+          11,
+          14,
+          15,
+          16
+        ]
+      },
+      "gray": {
+        "qss": {
+          "mean_abs_error": 0.057392120361328125,
+          "zero_error_fraction": 0.5078125,
+          "max_abs_error": 0.9375
+        },
+        "monte_carlo_rounded": {
+          "mean_abs_error": 0.0724639892578125,
+          "zero_error_fraction": 0.28594970703125,
+          "max_abs_error": 0.4375
+        },
+        "monte_carlo_raw_mae": 0.0741381327311198
+      },
+      "rgb": {
+        "qss": {
+          "mean_abs_error": 0.050160725911458336,
+          "zero_error_fraction": 0.58709716796875,
+          "max_abs_error": 0.9375
+        },
+        "monte_carlo_rounded": {
+          "mean_abs_error": 0.06360880533854167,
+          "zero_error_fraction": 0.3403727213541667,
+          "max_abs_error": 0.4375
+        }
+      },
+      "corr_confidence_vs_correct": 0.4703189244763536,
+      "seconds": 11.774324500001967
+    },
+    "t=6": {
+      "qubits_per_tile_circuit": 10,
+      "oracle_calls_per_tile": 63,
+      "gate_count_example_tile": {
+        "p": 8127,
+        "u": 7117,
+        "cx": 6843
+      },
+      "verification": {
+        "grover_operator_max_abs_diff": 1.5716302420212289e-15,
+        "permuted_masks_max_prob_diff": 3.991251773527438e-14,
+        "real_tiles_checked": 40,
+        "real_tiles_max_prob_diff": 6.084022174945858e-14,
+        "closed_form_max_prob_diff": 6.651124095924388e-12
+      },
+      "expected_gray": {
+        "qss": {
+          "mean_abs_error": 0.01089328441274608,
+          "zero_error_fraction": 0.9119582337257855
+        },
+        "monte_carlo_rounded": {
+          "mean_abs_error": 0.032191762904444254,
+          "zero_error_fraction": 0.5429459451969967
+        },
+        "decodable_levels": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      },
+      "gray": {
+        "qss": {
+          "mean_abs_error": 0.011501312255859375,
+          "zero_error_fraction": 0.91143798828125,
+          "max_abs_error": 0.9375
+        },
+        "monte_carlo_rounded": {
+          "mean_abs_error": 0.03205108642578125,
+          "zero_error_fraction": 0.54620361328125,
+          "max_abs_error": 0.25
+        },
+        "monte_carlo_raw_mae": 0.03635727413116939
+      },
+      "rgb": {
+        "qss": {
+          "mean_abs_error": 0.009583791097005209,
+          "zero_error_fraction": 0.9239908854166666,
+          "max_abs_error": 0.9375
+        },
+        "monte_carlo_rounded": {
+          "mean_abs_error": 0.028498331705729168,
+          "zero_error_fraction": 0.5894571940104166,
+          "max_abs_error": 0.25
+        }
+      },
+      "corr_confidence_vs_correct": 0.3739626662801493,
+      "seconds": 62.79192116705235
+    }
+  },
+  "example_tile": {
+    "tile_row": 35,
+    "tile_col": 64,
+    "mask": [
+      [
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        1
+      ]
+    ],
+    "k": 8
+  },
+  "total_seconds": 75.64504037500592
+}
